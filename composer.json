@@ -1,0 +1,42 @@
+{
+  "name": "justoverclock/flarum-ext-toastme",
+  "description": "Show a Toast notification on homepage with custom text",
+  "keywords": [
+    "toastify"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.16"
+  },
+  "require-dev": {
+    "flarum/testing": "^0.1.0-beta.16"
+  },
+  "authors": [
+    {
+      "name": "Marco Colia",
+      "email": "info@flarum.it",
+      "role": "Developer",
+        "homepage": "https://flarum.it"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Justoverclock\\ToastMe\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "ToastMe",
+      "category": "",
+      "icon": {
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
